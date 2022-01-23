@@ -1,0 +1,16 @@
+= Cvičeni 3: Demo třívrstvé architektuty, základ di
+Jan Kolomazník <jan.kolomaznik@mendelu.cz>  
+v1.0, ZS 2021/2022
+:doctype: article
+:toc:
+:icons: font
+
+V rámci tohoto cvičení si vytvoříme základní demo příklad 3-vrstvé archytektuty aplikace.
+
+Bude obsahovat:
+
+* `Controller` v prezenntační vrstve
+* `Service` ve vrstvě aplikační logiky
+* `DAO` v databázové vrstvě.
+
+Vazby nebudeme nastavovat napřímo, ale vytvoříme si vlastní IOC/DI framework.
